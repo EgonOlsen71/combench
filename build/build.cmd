@@ -1,0 +1,1 @@
+call mospeed ..\basic\egonseleven.bas -target=ee-mospeed.prg -compression=true
