@@ -183,7 +183,7 @@
 60010 ti$="000000":return
 
 60100 rem read timer, "use" o
-60110 poke 2,o and 255:print "done""
+60110 poke 2,o and 255:print "done"
 60120 sc(cn)=ti:cn=cn+1
 60130 return
 
