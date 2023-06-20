@@ -96,7 +96,7 @@
 
 1400 rem ram copy
 1405 n$="ram copy":gosub 60000
-1410 for i=1024 to 4096:poke 48182+i,peek(i) and 123:next
+1410 for i=1024 to 4096:poke 48128+i,peek(i) and 123:next
 1420 gosub 60100:return
 
 1500 rem string ops
